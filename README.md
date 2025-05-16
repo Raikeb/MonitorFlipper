@@ -18,11 +18,11 @@ A simple tool to rotate your secondary monitor (e.g., `\\.\DISPLAY5`) between **
 ### For End Users (No Python Needed):  
 1. Download the `MonitorFlipper.exe` from the `dist` folder.  
 2. Double-click to run.  
-   - *It will automatically toggle your **secondary monitor** (default: `DISPLAY5`).*  
+   - *It will automatically toggle the **other monitor** (if match default: `DISPLAY5`).*  
 
 ### For Advanced Users (Customization):  
 1. **Identify your target monitor**:  
-   - Run `CheckActiveMonitors.py` to list active displays (e.g., `DISPLAY1`, `DISPLAY5`).  
+   - Run `CheckActiveMonitors.py` to list active displays (e.g., `DISPLAY1`, `DISPLAY5`, etc).  
    - Note the device name (e.g., `\\.\DISPLAY5`).  
 
 2. **Modify the script**:  
@@ -71,12 +71,12 @@ Programa simples para alternar o monitor secundário (ex.: `\\.\DISPLAY5`) entre
 
 ### Para Usuários Comuns (Sem Python):  
 1. Baixe o `MonitorFlipper.exe` na pasta `dist`.  
-2. Execute com um clique.  
-   - *Alternará automaticamente o **monitor secundário** (padrão: `DISPLAY5`).*  
+2. Execute com dois cliques.  
+   - *Ele alternará automaticamente o **outro monitor** (se corresponder ao padrão: `DISPLAY5`).*  
 
 ### Para Personalização:  
 1. **Identifique seu monitor**:  
-   - Execute `CheckActiveMonitors.py` para listar monitores ativos (ex.: `DISPLAY1`, `DISPLAY5`).  
+   - Execute `CheckActiveMonitors.py` para listar monitores ativos (ex.: `DISPLAY1`, `DISPLAY5`, etc).  
    - Anote o nome do dispositivo (ex.: `\\.\DISPLAY5`).  
 
 2. **Edite o script**:  
