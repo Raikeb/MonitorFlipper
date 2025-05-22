@@ -31,7 +31,7 @@ A simple tool to rotate your secondary monitor (e.g., `\\.\DISPLAY5`) between **
 3. **Rebuild the executable**:  
    ```sh
    pip install pyinstaller
-   pyinstaller --onefile --windowed MonitorFlipper.py
+   pyinstaller --onefile --windowed --icon=tela.ico MonitorFlipper.py
    ```  
    - The new `.exe` will be in `dist/`.  
 
@@ -85,7 +85,7 @@ Programa simples para alternar o monitor secundário (ex.: `\\.\DISPLAY5`) entre
 3. **Recrie o executável**:  
    ```sh
    pip install pyinstaller
-   pyinstaller --onefile --windowed MonitorFlipper.py
+   pyinstaller --onefile --windowed --icon=tela.ico MonitorFlipper.py
    ```  
    - O novo `.exe` estará em `dist/`.  
 
